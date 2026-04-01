@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(135deg, #6fb1fc, #4364f7);
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 0.875rem;
+}
+
+.start-btn {
+  background-color: #7c3aed;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+}
+
+.hole {
+  width: 100px;
+  height: 100px;
+  background: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mole {
+  font-size: 30px;
+}
