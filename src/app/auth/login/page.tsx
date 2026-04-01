@@ -33,10 +33,10 @@ export default function LoginPage() {
 
     const err: any = {};
     if (!formData.email) err.email = 'Email tidak boleh kosong';
-    else if (formData.email !== '241712912@gmail.com') err.email = 'Email tidak sesuai NPM';
+    else if (formData.email !== '2912@gmail.com') err.email = 'Email tidak sesuai';
 
     if (!formData.password) err.password = 'Password tidak boleh kosong';
-    else if (formData.password !== '241712912') err.password = 'Password tidak sesuai NPM';
+    else if (formData.password !== '241712912') err.password = 'Password tidak sesuai';
 
     if (formData.captchaInput !== captcha) err.captcha = 'Captcha tidak valid';
 
